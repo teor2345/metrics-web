@@ -71,6 +71,20 @@
     ]
   },
   {
+    "id": "bridge-ip-version",
+    "title": "Bridges by IP version",
+    "type": "Graph",
+    "description": "<p>This graph shows the number of <a href=\"glossary.html#bridge\">bridges</a> by <a href=\"glossary.html#orport\">announced ORPort</a> <a href=\"glossary.html#internet-protocol\">internet protocol (IP)</a> version. These sets are not distinct, because bridges can announce IPv4 or IPv6 ORPorts, or both IPv4 and IPv6.</p>",
+    "function": "plot_bridge_ip_versions",
+    "parameters": [
+      "start",
+      "end"
+    ],
+    "data": [
+      "servers"
+    ]
+  },
+  {
     "id": "bandwidth",
     "title": "Total relay bandwidth",
     "type": "Graph",
