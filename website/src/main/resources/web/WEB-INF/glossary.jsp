@@ -83,7 +83,8 @@
       
       <p id="onion-service"><b><a href="#onion-service">onion service:</a></b> a
       service (for example, a website or instant-messaging server) that is only
-      accessible via the Tor network.</p>
+      accessible via the Tor network. There are two different onion service
+      protocol versions on the Tor network, version 2 and version 3.</p>
       
       <p id="pluggable-transport"><b><a href="#pluggable-transport">pluggable
       transport:</a></b> an
