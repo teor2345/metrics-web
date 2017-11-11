@@ -57,6 +57,20 @@
     ]
   },
   {
+    "id": "ip-version",
+    "title": "Relays by IP version",
+    "type": "Graph",
+    "description": "<p>This graph shows the number of <a href=\"glossary.html#relay\">relays</a> by <a href=\"glossary.html#internet-protocol\">internet protocol (IP)</a> version, <a href=\"glossary.html#orport\">announced and confirmed ORPorts</a>, and <a href=\"glossary.html#exit\">exit policy</a>. These sets are not distinct, because relays can have various combinations of IP versions, ORPorts, and exit policies.</p>",
+    "function": "plot_ip_versions",
+    "parameters": [
+      "start",
+      "end"
+    ],
+    "data": [
+      "servers"
+    ]
+  },
+  {
     "id": "bandwidth",
     "title": "Total relay bandwidth",
     "type": "Graph",
