@@ -80,10 +80,37 @@
       <a href="#relay">relay</a> that provides a recent copy of directory
       information to clients, in order to reduce the load on
       <a href="#directory-authority">directory authorities</a>.</p>
+
+      <p id="exit"><b><a href="#exit">exit:</a></b> a
+      <a href="#relay">relay</a> that forwards traffic to internet services
+      on behalf of <a href="#client">clients</a>. Exits have exit policies,
+      which are rules about which <a href="#internet-protocol">internet
+      protocol (IP) addresses</a> and ports they will connect to. Almost all
+      exits allow IPv4, and some allow IPv6.</p>
+
+      <p id="internet-protocol"><b><a href="#internet-protocol">internet
+      protocol:</a></b> The Tor network uses the internet protocol (IP)
+      to connect clients, bridges, and <a href="#relay">relays</a>. Clients
+      can connect to bridges and relays using internet protocol version 4
+      (IPv4) or version 6 (IPv6). <a href="#exit">Exit</a> relays can connect
+      to internet services using IPv4 or IPv6.</p>
       
       <p id="onion-service"><b><a href="#onion-service">onion service:</a></b> a
       service (for example, a website or instant-messaging server) that is only
       accessible via the Tor network.</p>
+
+      <p id="orport"><b><a href="#orport">ORPort:</a></b> All
+      <a href="#relay">relays</a> and some <a href="#bridge">bridges</a>
+      announce an ORPort for Tor network connections.
+      <a href="#internet-protocol">IPv4</a> ORPorts are required for relays,
+      but optional for bridges. <a href="#internet-protocol">IPv6</a> ORPorts
+      are optional for relays and bridges. Relay IPv4 ORPorts are confirmed by
+      the <a href="#directory-authority">directory authorities</a> before the
+      relay is published in the
+      <a href=\"glossary.html#consensus\">consensus</a>. Some relay IPv6
+      ORPorts are also confirmed by the directory authorities. (If there are
+      enough IPv6 directory authorities, all IPv6 ORPorts are confirmed before
+      being published.)
       
       <p id="pluggable-transport"><b><a href="#pluggable-transport">pluggable
       transport:</a></b> an
