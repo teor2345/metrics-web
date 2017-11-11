@@ -125,11 +125,13 @@
       <a href="#directory-authority">directory authorities</a>.</p>
       
       <p id="relay-flag"><b><a href="#relay-flag">relay flag:</a></b> a special
-      (dis-)qualification of <a href="#relay">relays</a> for circuit positions
-      (for example, "Guard", "Exit", "BadExit"), circuit properties (for
-      example, "Fast", "Stable"), or roles (for example, "Authority", "HSDir"),
-      as assigned by the <a href="#directory-authority">directory
-      authorities</a> and further defined in the
+      (dis-)qualification of <a href="#relay">relays</a> for
+      <a href="#circuit">circuit</a> positions
+      (for example, "Guard", <a href="#exit">"Exit"</a>, "BadExit"), circuit
+      properties (for example, "Fast", "Stable"), or roles (for example,
+      "Authority", "HSDir"), as assigned by the
+      <a href="#directory-authority">directory authorities</a> and further
+      defined in the
       <a href="https://gitweb.torproject.org/torspec.git/tree/dir-spec.txt" target="_blank">directory
       protocol specification</a>.</p>
 

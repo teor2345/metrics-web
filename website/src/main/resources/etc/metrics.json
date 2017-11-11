@@ -17,7 +17,7 @@
     "id": "relayflags",
     "title": "Relays by relay flag",
     "type": "Graph",
-    "description": "<p>This graph shows the number of running <a href=\"glossary.html#relay\">relays</a> that have had certain <a href=\"glossary.html#relay-flag\">flags</a> assigned by the <a href=\"glossary.html#directory-authority\">directory authorities</a>.  These flags indicate that a relay should be preferred for either guard (\"Guard\") or exit positions (\"Exit\"), that a relay is suitable for high-bandwidth (\"Fast\") or long-lived circuits (\"Stable\"), or that a relay is considered a onion service directory (\"HSDir\").</p>",
+    "description": "<p>This graph shows the number of running <a href=\"glossary.html#relay\">relays</a> that have had certain <a href=\"glossary.html#relay-flag\">flags</a> assigned by the <a href=\"glossary.html#directory-authority\">directory authorities</a>.  These flags indicate that a relay should be preferred for either guard (\"Guard\") or exit positions (\"Exit\"), that a relay is suitable for high-bandwidth (\"Fast\") or long-lived <a href=\"glossary.html#circuit\">circuits</a> (\"Stable\"), or that a relay is considered a onion service directory (\"HSDir\").</p>",
     "function": "plot_relayflags",
     "parameters": [
       "start",
