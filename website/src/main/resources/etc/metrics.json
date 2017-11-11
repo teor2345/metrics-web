@@ -113,6 +113,20 @@
     ]
   },
   {
+    "id": "bandwidth-ip",
+    "title": "Advertised bandwidth of relays supporting IPv6",
+    "type": "Graph",
+    "description": "<p>This graph shows <a href=\"glossary.html#advertised-bandwidth\">advertised</a> of relays by <a href=\"glossary.html#internet-protocol\">internet protocol (IP)</a> version, \"Exit\" or \"Guard\" <a href=\"glossary.html#relay-flag\">flags</a>, <a href=\"glossary.html#orport\">confirmed ORPort</a>, and <a href=\"glossary.html#exit\">exit policy</a>. These sets are not distinct, because relays can have various combinations of IP versions, flags, ORPorts, and exit policies.</p>",
+    "function": "plot_bandwidth_ip_versions",
+    "parameters": [
+      "start",
+      "end"
+    ],
+    "data": [
+      "bandwidth"
+    ]
+  },
+  {
     "id": "dirbytes",
     "title": "Bandwidth spent on answering directory requests",
     "type": "Graph",
