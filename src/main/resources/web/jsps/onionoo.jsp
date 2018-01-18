@@ -602,6 +602,7 @@ Filtering by host name is case-insensitive.
 Return only relays and bridges running a Tor software version that is
 recommended (parameter value <strong>true</strong>) or not recommended by
 the directory authorities (parameter value <strong>false</strong>).
+Uses the version in the consensus.
 Relays and bridges are not contained in either result, if the version they
 are running is not known.
 Parameter values are case-insensitive.
@@ -1476,7 +1477,8 @@ implementation.
 <a href="#details_relay_recommended_version" class="anchor">#</a>
 <p>
 Boolean field saying whether the Tor software version of this relay is
-recommended by the directory authorities or not.
+recommended by the directory authorities or not. Uses the relay version
+in the consensus.
 Omitted if either the directory authorities did not recommend versions, or
 the relay did not report which version it runs.
 </p>
@@ -1821,7 +1823,8 @@ implementation.
 <a href="#details_bridge_recommended_version" class="anchor">#</a>
 <p>
 Boolean field saying whether the Tor software version of this bridge is
-recommended by the directory authorities or not.
+recommended by the directory authorities or not. Uses the bridge version
+in the bridge networkstatus.
 Omitted if either the directory authorities did not recommend versions, or
 the bridge did not report which version it runs.
 <span class="blue">Added on November 28, 2017.</span>
